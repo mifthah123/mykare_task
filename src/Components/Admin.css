@@ -1,0 +1,32 @@
+.admin__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  margin-top: 50px;
+  box-shadow: 1px 1px 8px 8px lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  color: rgb(0, 208, 176);
+}
+
+td {
+  color: rgb(95, 92, 92);
+}
+
+.admin__button > button {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: wheat;
+  font-size: medium;
+  cursor: pointer;
+}
